@@ -173,8 +173,6 @@ try{
                 $reg_account->setCreateIP(Visitor::getIP());
                 $reg_account->setFlag(Website::getCountryCode(long2ip(Visitor::getIP())));
                 $reg_account->save();
-                var_dump($reg_account);
-                die();
                 /*if($reg_account->getID() > 0) {
                     $sample = (count($voc) == 0 ? 'Rook' : $voc[$_POST['vocation']]).' Sample';
                     $char_to_copy = new Player();
