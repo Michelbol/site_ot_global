@@ -11,5 +11,6 @@ if (!$conn) {
 }
 echo "Connected successfully";
 
-echo mysqli_query($conn, "SELECT * FROM accounts");
+$dados = mysqli_query($conn, "SELECT * FROM accounts");
+echo mysqli_fetch_array($dados);
 mysqli_close($conn);
