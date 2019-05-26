@@ -10,4 +10,6 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 echo "Connected successfully";
+
+echo mysqli_query($conn, "SELECT * FROM accounts");
 mysqli_close($conn);
