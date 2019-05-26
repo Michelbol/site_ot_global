@@ -172,8 +172,6 @@ try{
                 $reg_account->setCreateDate(time());
                 $reg_account->setCreateIP(Visitor::getIP());
                 $reg_account->setFlag(Website::getCountryCode(long2ip(Visitor::getIP())));
-                var_dump(!isset($reg_account->data['id']));
-                die();
                 $reg_account->save();
                 var_dump($reg_account);
                 die();
