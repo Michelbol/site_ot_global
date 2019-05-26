@@ -13,6 +13,6 @@ echo "Connected successfully";
 
 $dados = mysqli_query($conn, "SELECT * FROM accounts");
 $accounts = mysqli_fetch_array($dados);
-$include = mysqli_query($conn, "INSERT INTO accounts (name, vote, vip_time) values ('teste', 'teste', 1)");
+$include = mysqli_query($conn, "INSERT INTO accounts (name, password, email, creation, create_ip, flag) values ('name', 'password', 'email', 11, 1, 'flag')");
 var_dump($include);
 mysqli_close($conn);
