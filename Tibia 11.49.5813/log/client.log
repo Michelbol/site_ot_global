@@ -3326,3 +3326,22 @@
 [ 16:34:25,826 ] Socket state changed  QAbstractSocket::UnconnectedState
 [ 16:34:25,826 ] Disconnected from Gameserver
 [ 16:34:26,982 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 18:19:19,799 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 18:19:20,288 ] Asset loading complete
+[ 18:19:20,562 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 18:19:23,656 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 18:19:26,337 ] BattlEye: "Initialized (v1.243)"
+[ 18:19:26,337 ] BattlEye: "Restarting client is necessary, service isn't running properly"
+[ 18:19:26,337 ] BattlEye: "Restarting client is necessary, update required"
+[ 18:19:26,419 ] Connection to gameserver  QUrl("tcp://35.231.220.250:7172")  requested (Charakter "Community Manager" )
+[ 18:19:26,419 ] Socket state changed  QAbstractSocket::HostLookupState
+[ 18:19:26,419 ] Socket state changed  QAbstractSocket::ConnectingState
+[ 18:19:26,584 ] Socket state changed  QAbstractSocket::ConnectedState
+[ 18:19:26,584 ] Connected to Gameserver  "35.231.220.250" "OTXServer-Global"
+[ 18:19:27,689 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 18:19:28,192 ] News query failed: "Failed to get account. Try again!"
+[ 18:19:29,025 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 18:19:29,084 ] Socket state changed  QAbstractSocket::ClosingState
+[ 18:19:29,084 ] Socket state changed  QAbstractSocket::UnconnectedState
+[ 18:19:29,084 ] Disconnected from Gameserver
+[ 18:19:29,320 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
