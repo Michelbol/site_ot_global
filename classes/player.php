@@ -87,9 +87,9 @@ class Player extends ObjectData
 			$this->items->setPlayerId($this->getID());
 			$this->items->save();
 		}
-//		else{
-            //			new Error_Critic('', 'Player::saveItems() - items not loaded, cannot save');
-//        }
+		else{
+            			new Error_Critic('', 'Player::saveItems() - items not loaded, cannot save');
+        }
 	}
 
 	public function loadStorages()
