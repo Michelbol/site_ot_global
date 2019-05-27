@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pages/accountmanagement.php" line="4519" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/pages/accountmanagement.php" line="4520" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e391467-1f7b-453e-a1c2-2b81c0d3a2cb" name="Default Changelist" comment="">
@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/accountmanagement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="4517" column="26" selection-start-line="4517" selection-start-column="26" selection-end-line="4517" selection-end-column="26" />
+            <state relative-caret-position="256">
+              <caret line="4517" column="54" selection-start-line="4517" selection-start-column="54" selection-end-line="4517" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -248,8 +248,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/player.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+            <state relative-caret-position="137">
+              <caret line="205" column="25" selection-start-line="205" selection-start-column="25" selection-end-line="205" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -281,8 +281,8 @@
       <find>$account_logged</find>
       <find>$items</find>
       <find>$this-&gt;items</find>
-      <find>createcharacter</find>
       <find>ID</find>
+      <find>createcharacter</find>
       <find>save</find>
     </findStrings>
   </component>
@@ -366,12 +366,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558903869312</updated>
       <workItem from="1558903870494" duration="11751000" />
-      <workItem from="1558954262387" duration="1592000" />
+      <workItem from="1558954262387" duration="1699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13343000" />
+    <option name="totallyTimeSpent" value="13450000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,15 +505,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/player.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="86" column="12" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
+        <state relative-caret-position="137">
+          <caret line="205" column="25" selection-start-line="205" selection-start-column="25" selection-end-line="205" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/accountmanagement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="4517" column="26" selection-start-line="4517" selection-start-column="26" selection-end-line="4517" selection-end-column="26" />
+        <state relative-caret-position="256">
+          <caret line="4517" column="54" selection-start-line="4517" selection-start-column="54" selection-end-line="4517" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />

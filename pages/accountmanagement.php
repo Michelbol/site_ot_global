@@ -4504,6 +4504,7 @@ function NameStateChanged()
 					$char_to_copy->setLastLogout(0);
 				    $char_to_copy->setName($newchar_name);
 				    $char_to_copy->setAccount($account_logged);
+
 				    $char_to_copy->setSex($newchar_sex);
 					$char_to_copy->setPosX(0);
 					$char_to_copy->setPosY(0);
@@ -4514,7 +4515,7 @@ function NameStateChanged()
 					$char_to_copy->setCreateDate(time());
 					$char_to_copy->setSave(); // make character saveable
 					$char_to_copy->save(); // now it will load 'id' of new player
-                    echo($char_to_copy->getID());
+                    echo($char_to_copy->getAccountID());
                     die();
 					if($char_to_copy->isLoaded())
 					{
