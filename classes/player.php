@@ -61,7 +61,6 @@ class Player extends ObjectData
 				}
 			$this->getDatabaseHandler()->query('INSERT INTO ' . $this->getDatabaseHandler()->tableName(self::$table) . ' (' . implode(', ', $keys) . ') VALUES (' . implode(', ', $values) . ')');
 			$this->setID($this->getDatabaseHandler()->lastInsertId());
-            return 'INSERT INTO ' . $this->getDatabaseHandler()->tableName(self::$table) . ' (' . implode(', ', $keys) . ') VALUES (' . implode(', ', $values) . ')';
 		}
 		else
 		{

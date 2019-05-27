@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/pages/accountmanagement.php" line="4520" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/pages/accountmanagement.php" line="4518" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e391467-1f7b-453e-a1c2-2b81c0d3a2cb" name="Default Changelist" comment="">
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/accountmanagement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="4518" column="24" selection-start-line="4518" selection-start-column="24" selection-end-line="4518" selection-end-column="24" />
+            <state relative-caret-position="290">
+              <caret line="4516" column="20" selection-start-line="4516" selection-start-column="20" selection-end-line="4516" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -245,11 +245,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/player.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -282,8 +282,8 @@
       <find>$items</find>
       <find>$this-&gt;items</find>
       <find>ID</find>
-      <find>save</find>
       <find>createcharacter</find>
+      <find>save</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -295,8 +295,8 @@
         <option value="$PROJECT_DIR$/teste/teste.php" />
         <option value="$PROJECT_DIR$/pages/createaccount.php" />
         <option value="$PROJECT_DIR$/classes/account.php" />
-        <option value="$PROJECT_DIR$/pages/accountmanagement.php" />
         <option value="$PROJECT_DIR$/classes/player.php" />
+        <option value="$PROJECT_DIR$/pages/accountmanagement.php" />
       </list>
     </option>
   </component>
@@ -366,12 +366,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558903869312</updated>
       <workItem from="1558903870494" duration="11751000" />
-      <workItem from="1558954262387" duration="1894000" />
+      <workItem from="1558954262387" duration="1994000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13645000" />
+    <option name="totallyTimeSpent" value="13745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -503,10 +503,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/player.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/accountmanagement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="4518" column="24" selection-start-line="4518" selection-start-column="24" selection-end-line="4518" selection-end-column="24" />
+        <state relative-caret-position="290">
+          <caret line="4516" column="20" selection-start-line="4516" selection-start-column="20" selection-end-line="4516" selection-end-column="20" />
           <folding>
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
@@ -716,13 +723,6 @@
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#form#0;n#table#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#td#0;n#tr#0;n#form#0;n#table#0;n#td#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/player.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
         </state>
       </provider>
     </entry>
