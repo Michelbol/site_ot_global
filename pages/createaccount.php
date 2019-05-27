@@ -183,9 +183,7 @@ try{
                 $reg_account->setLoyalty(0);
                 $reg_account->setGuildPoints(0);
                 $reg_account->setFlag(Website::getCountryCode(long2ip(Visitor::getIP())));
-                $teste = $reg_account->save();
-                var_dump($teste);
-                die();
+                $reg_account->save();
                 /*if($reg_account->getID() > 0) {
                     $sample = (count($voc) == 0 ? 'Rook' : $voc[$_POST['vocation']]).' Sample';
                     $char_to_copy = new Player();
