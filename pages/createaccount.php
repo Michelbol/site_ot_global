@@ -170,7 +170,18 @@ try{
                 $reg_account->setPassword($_POST['password1']);
                 $reg_account->setEMail($_POST['email']);
                 $reg_account->setCreateDate(time());
+                $reg_account->setPremDays(0);
+                $reg_account->setCoins(0);
+                $reg_account->setLastDay(0);
                 $reg_account->setCreateIP(Visitor::getIP());
+                $reg_account->setPremiumPoints(0);
+                $reg_account->setPageAccess(0);
+                $reg_account->setEmailNewTime(0);
+                $reg_account->setNextEmail(0);
+                $reg_account->setLastPost(0);
+                $reg_account->setVote(0);
+                $reg_account->setLoyalty(0);
+                $reg_account->setGuildPoints(0);
                 $reg_account->setFlag(Website::getCountryCode(long2ip(Visitor::getIP())));
                 $reg_account->save();
                 /*if($reg_account->getID() > 0) {

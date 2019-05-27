@@ -1,8 +1,8 @@
 serverStatus_checkInterval = "8"
-	serverStatus_lastCheck = "1558907451"
+	serverStatus_lastCheck = "1558924844"
 	serverStatus_online = "1"
 	serverStatus_players = "0"
 	serverStatus_playersMax = "0"
-	serverStatus_uptime = "2h 18m"
-	serverStatus_monsters = "66576"
+	serverStatus_uptime = "7h 8m"
+	serverStatus_monsters = "66635"
 	

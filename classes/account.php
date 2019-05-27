@@ -214,6 +214,11 @@ class Account extends ObjectData
 	public function getPageAccess(){return $this->data['page_access'];}
 	
 	public function setLocation($value){$this->data['location'] = $value;}
+	public function setEmailNewTime($value){$this->data['email_new_time'] = $value;}
+	public function setNextEmail($value){$this->data['next_email'] = $value;}
+	public function setLastPost($value){$this->data['last_post'] = $value;}
+	public function setVote($value){$this->data['vote'] = $value;}
+	public function setGuildPoints($value){$this->data['guild_points'] = $value;}
 	public function getLocation(){return $this->data['location'];}
 	public function setLoyalty($value){$this->data['loyalty_points'] = $value;}
 	public function getLoyalty(){return $this->data['loyalty_points'];}
