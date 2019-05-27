@@ -15,7 +15,7 @@
             "byDistanceAscending",
             "byAgeAscending"
         ],
-        "contentHeight": 275,
+        "contentHeight": 64,
         "showFilters": true,
         "showMonsters": true,
         "showNPCs": true,
@@ -42,15 +42,15 @@
         "clientWindowPositionY": 31,
         "clientWindowScreenName": "\\\\.\\DISPLAY1",
         "clientWindowWidth": 800,
-        "mapWindowHeight": 536,
+        "mapWindowHeight": 537,
         "minimapZoomLevel": -100
     },
     "generalOptions": {
         "allowAllToInspectPlayer": false,
         "animatedMouseCursor": false,
         "askBeforeBuyingStoreProducts": false,
-        "autoChase": true,
-        "controlScheme": 2,
+        "autoChase": false,
+        "controlScheme": 0,
         "desiredIsPremiumPanelVisible": false,
         "dragAndDropDefaultActionIsMoveAll": true,
         "highlightMouseTarget": false,
@@ -858,6 +858,14 @@
                             "actionsetting": {
                                 "useObject": 266,
                                 "useType": "UseOnYourself"
+                            }
+                        },
+                        {
+                            "actionBar": 1,
+                            "actionButton": 10,
+                            "actionsetting": {
+                                "chatText": "exevo gran mas frigo",
+                                "sendAutomatically": true
                             }
                         }
                     ]
@@ -2996,7 +3004,7 @@
         "controlButtonsVisible": true
     },
     "playerOptions": {
-        "chaseModeEnabled": true,
+        "chaseModeEnabled": false,
         "combatMode": 1,
         "minimizeInventory": false
     },
@@ -3068,7 +3076,7 @@
         "showFramesPvp": true
     },
     "survey": {
-        "id": 764315,
+        "id": 432878,
         "status": 2
     },
     "vipWidgetOptions": {

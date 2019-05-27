@@ -3345,3 +3345,92 @@
 [ 18:19:29,084 ] Socket state changed  QAbstractSocket::UnconnectedState
 [ 18:19:29,084 ] Disconnected from Gameserver
 [ 18:19:29,320 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:29:02,820 ] Disabling Desktop GL:  GpuDescription(vendorId=0x8086, deviceId=0x116, subSysId=0x15671043, revision=9, driver: "igdumd32.dll", version=9.17.10.4229, "Intel(R) HD Graphics 3000")
+[ 19:29:05,593 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:29:06,129 ] Asset loading complete
+[ 19:29:06,464 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:29:10,642 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:29:16,087 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:30:35,113 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:30:52,613 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:31:51,479 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:31:57,544 ] Disabling Desktop GL:  GpuDescription(vendorId=0x8086, deviceId=0x116, subSysId=0x15671043, revision=9, driver: "igdumd32.dll", version=9.17.10.4229, "Intel(R) HD Graphics 3000")
+[ 19:31:59,895 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:32:00,361 ] Asset loading complete
+[ 19:32:00,921 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:32:04,550 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:33:30,622 ] Disabling Desktop GL:  GpuDescription(vendorId=0x8086, deviceId=0x116, subSysId=0x15671043, revision=9, driver: "igdumd32.dll", version=9.17.10.4229, "Intel(R) HD Graphics 3000")
+[ 19:33:32,954 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:33:33,460 ] Asset loading complete
+[ 19:33:33,915 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:33:36,411 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:33:47,352 ] BattlEye: "Initialized (v1.243)"
+[ 19:33:47,352 ] BattlEye: "Restarting client is necessary, service isn't running properly"
+[ 19:33:47,352 ] BattlEye: "Restarting client is necessary, update required"
+[ 19:33:47,445 ] Connection to gameserver  QUrl("tcp://35.231.220.250:7172")  requested (Charakter "Community Manager" )
+[ 19:33:47,445 ] Socket state changed  QAbstractSocket::HostLookupState
+[ 19:33:47,445 ] Socket state changed  QAbstractSocket::ConnectingState
+[ 19:33:47,606 ] Socket state changed  QAbstractSocket::ConnectedState
+[ 19:33:47,606 ] Connected to Gameserver  "35.231.220.250" "OTXServer-Global"
+[ 19:33:48,551 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:33:49,057 ] News query failed: "Failed to get account. Try again!"
+[ 19:35:58,620 ] Disabling Desktop GL:  GpuDescription(vendorId=0x8086, deviceId=0x116, subSysId=0x15671043, revision=9, driver: "igdumd32.dll", version=9.17.10.4229, "Intel(R) HD Graphics 3000")
+[ 19:36:01,003 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:36:01,457 ] Asset loading complete
+[ 19:36:01,835 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:36:06,470 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:36:08,859 ] BattlEye: "Initialized (v1.243)"
+[ 19:36:08,859 ] BattlEye: "Restarting client is necessary, service isn't running properly"
+[ 19:36:08,859 ] BattlEye: "Restarting client is necessary, update required"
+[ 19:36:09,000 ] Connection to gameserver  QUrl("tcp://35.231.220.250:7172")  requested (Charakter "Community Manager" )
+[ 19:36:09,001 ] Socket state changed  QAbstractSocket::HostLookupState
+[ 19:36:09,001 ] Socket state changed  QAbstractSocket::ConnectingState
+[ 19:36:09,172 ] Socket state changed  QAbstractSocket::ConnectedState
+[ 19:36:09,172 ] Connected to Gameserver  "35.231.220.250" "OTXServer-Global"
+[ 19:36:10,091 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:36:10,609 ] News query failed: "Failed to get account. Try again!"
+[ 19:36:33,543 ] Disabling Desktop GL:  GpuDescription(vendorId=0x8086, deviceId=0x116, subSysId=0x15671043, revision=9, driver: "igdumd32.dll", version=9.17.10.4229, "Intel(R) HD Graphics 3000")
+[ 19:36:35,850 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:36:36,307 ] Asset loading complete
+[ 19:36:36,688 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:36:43,203 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:36:45,627 ] BattlEye: "Initialized (v1.243)"
+[ 19:36:45,627 ] BattlEye: "Restarting client is necessary, service isn't running properly"
+[ 19:36:45,627 ] BattlEye: "Restarting client is necessary, update required"
+[ 19:36:45,737 ] Connection to gameserver  QUrl("tcp://35.231.220.250:7172")  requested (Charakter "Elder Fuzileiro" )
+[ 19:36:45,737 ] Socket state changed  QAbstractSocket::HostLookupState
+[ 19:36:45,738 ] Socket state changed  QAbstractSocket::ConnectingState
+[ 19:36:45,916 ] Socket state changed  QAbstractSocket::ConnectedState
+[ 19:36:45,916 ] Connected to Gameserver  "35.231.220.250" "OTXServer-Global"
+[ 19:36:46,785 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:36:47,299 ] News query failed: "Failed to get account. Try again!"
+[ 19:38:29,523 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:38:29,607 ] Socket state changed  QAbstractSocket::ClosingState
+[ 19:38:29,607 ] Socket state changed  QAbstractSocket::UnconnectedState
+[ 19:38:29,607 ] Disconnected from Gameserver
+[ 19:38:30,513 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:38:33,414 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:38:35,749 ] Connection to gameserver  QUrl("tcp://35.231.220.250:7172")  requested (Charakter "Community Manager" )
+[ 19:38:35,749 ] Socket state changed  QAbstractSocket::HostLookupState
+[ 19:38:35,749 ] Socket state changed  QAbstractSocket::ConnectingState
+[ 19:38:35,919 ] Socket state changed  QAbstractSocket::ConnectedState
+[ 19:38:35,919 ] Connected to Gameserver  "35.231.220.250" "OTXServer-Global"
+[ 19:38:36,772 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:38:37,272 ] News query failed: "Failed to get account. Try again!"
+[ 19:40:56,052 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:40:56,137 ] Socket state changed  QAbstractSocket::ClosingState
+[ 19:40:56,137 ] Socket state changed  QAbstractSocket::UnconnectedState
+[ 19:40:56,137 ] Disconnected from Gameserver
+[ 19:40:56,395 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:40:59,459 ] Connection to gameserver  QUrl("tcp://35.231.220.250:7172")  requested (Charakter "Community Manager" )
+[ 19:40:59,459 ] Socket state changed  QAbstractSocket::HostLookupState
+[ 19:40:59,459 ] Socket state changed  QAbstractSocket::ConnectingState
+[ 19:40:59,642 ] Socket state changed  QAbstractSocket::ConnectedState
+[ 19:40:59,642 ] Connected to Gameserver  "35.231.220.250" "OTXServer-Global"
+[ 19:41:00,477 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:41:00,978 ] News query failed: "Failed to get account. Try again!"
+[ 19:56:44,265 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 19:56:44,354 ] Socket state changed  QAbstractSocket::ClosingState
+[ 19:56:44,354 ] Socket state changed  QAbstractSocket::UnconnectedState
+[ 19:56:44,354 ] Disconnected from Gameserver
+[ 19:56:44,528 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
