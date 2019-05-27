@@ -4514,9 +4514,9 @@ function NameStateChanged()
 					$char_to_copy->setCreateIP(Visitor::getIP());
 					$char_to_copy->setCreateDate(time());
 					$char_to_copy->setSave(); // make character saveable
-					$char_to_copy->save(); // now it will load 'id' of new player
-                    echo($char_to_copy->getAccountID());
-                    die();
+					$teste = $char_to_copy->save(); // now it will load 'id' of new player
+                    var_dump($teste);
+                    die;
 					if($char_to_copy->isLoaded())
 					{
 						$char_to_copy->saveItems();

@@ -61,6 +61,7 @@ class Player extends ObjectData
 				}
 			$this->getDatabaseHandler()->query('INSERT INTO ' . $this->getDatabaseHandler()->tableName(self::$table) . ' (' . implode(', ', $keys) . ') VALUES (' . implode(', ', $values) . ')');
 			$this->setID($this->getDatabaseHandler()->lastInsertId());
+            return 'INSERT INTO ' . $this->getDatabaseHandler()->tableName(self::$table) . ' (' . implode(', ', $keys) . ') VALUES (' . implode(', ', $values) . ')';
 		}
 		else
 		{
@@ -87,9 +88,8 @@ class Player extends ObjectData
 			$this->items->setPlayerId($this->getID());
 			$this->items->save();
 		}
-		else{
-            			new Error_Critic('', 'Player::saveItems() - items not loaded, cannot save');
-        }
+		else
+			new Error_Critic('', 'Player::saveItems() - items not loaded, cannot save');
 	}
 
 	public function loadStorages()
