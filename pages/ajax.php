@@ -183,7 +183,7 @@ if ($_POST['acao'] == "playerPoints") {
 	$account = new Account();
 	$account->find($accounName);
 	
-	$account->setPremiumPoints($account->getPremiumPoints() + $pointsAdd);
+	$account->setCoins($account->getCoins() + $pointsAdd);
 	$account->save();
 	
 	if($account)
