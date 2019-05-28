@@ -3730,3 +3730,8 @@
 [ 21:57:19,526 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
 [ 21:57:19,542 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
 [ 21:57:19,550 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 22:07:37,365 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
+[ 22:07:37,431 ] Socket state changed  QAbstractSocket::ClosingState
+[ 22:07:37,431 ] Socket state changed  QAbstractSocket::UnconnectedState
+[ 22:07:37,431 ] Disconnected from Gameserver
+[ 22:07:37,647 ] QObject::connect: Cannot connect (null)::stateChanged(QNetworkSession::State) to QNetworkReplyHttpImpl::_q_networkSessionStateChanged(QNetworkSession::State)
