@@ -60,6 +60,13 @@ class Player extends ObjectData
 					$values[] = $this->getDatabaseHandler()->quote($this->data[$key]);
 				}
 			$this->getDatabaseHandler()->query('INSERT INTO ' . $this->getDatabaseHandler()->tableName(self::$table) . ' (' . implode(', ', $keys) . ') VALUES (' . implode(', ', $values) . ')');
+            $player_id = $this->getDatabaseHandler()->lastInsertId();
+            //Atribuindo bag ao personagem
+            $this->getDatabaseHandler()->query('INSERT INTO player_items (player_id, pid, sid, itemtype, attributes) VALUES ('.$player_id.', 3, 103, 1987, "")');
+            //Atribuindo jacket ao personagem
+            $this->getDatabaseHandler()->query('INSERT INTO player_items (player_id, pid, sid, itemtype, attributes) VALUES ('.$player_id.', 4, 102, 2650, "")');
+            //Atribuindo Mace ao personagem
+            $this->getDatabaseHandler()->query('INSERT INTO player_items (player_id, pid, sid, itemtype, attributes) VALUES ('.$player_id.', 6, 101, 2398, "")');
 			$this->setID($this->getDatabaseHandler()->lastInsertId());
 		}
 		else
