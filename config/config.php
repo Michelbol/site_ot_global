@@ -39,7 +39,7 @@ $config['site']['formerNames'] = 10;
 $config['site']['formerNames_amount'] = 10;
 
 # Account Maker Config
-$config['site']['serverPath'] = "D:/Users/miche/Jogos/Tibia OT/Servdor2/otxserver-new-master/"; 
+$config['site']['serverPath'] = "/var/www/otxserver-new/";
 
 
 $config['site']['useServerConfigCache'] = false;
@@ -66,10 +66,10 @@ $towns_list = array(
 52 => 'Feyrist',
 );
 # this is important if you want to use ajax check in your create account
-$config['site']['sqlHost'] = "localhost";
-$config['site']['sqlUser'] = "root";
-$config['site']['sqlPass'] = "";
-$config['site']['sqlBD'] = "tibia_global";
+$config['site']['sqlHost'] = "127.0.0.1";
+$config['site']['sqlUser'] = "michel";
+$config['site']['sqlPass'] = "123456!@#$$Michel";
+$config['site']['sqlBD'] = "ot";
 
 # Create Account Options
 $config['site']['one_email'] = true;
