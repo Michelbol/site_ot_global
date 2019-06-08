@@ -67,6 +67,8 @@ class Player extends ObjectData
             $this->getDatabaseHandler()->query('INSERT INTO player_items (player_id, pid, sid, itemtype, attributes) VALUES ('.$player_id.', 4, 102, 2650, "")');
             //Atribuindo Mace ao personagem
             $this->getDatabaseHandler()->query('INSERT INTO player_items (player_id, pid, sid, itemtype, attributes) VALUES ('.$player_id.', 6, 101, 2398, "")');
+            //Atribuindo corda ao personagem
+            $this->getDatabaseHandler()->query('INSERT INTO player_items (player_id, pid, sid, itemtype, attributes) VALUES ('.$player_id.', 103, 104, 2120, "")');
 			$this->setID($this->getDatabaseHandler()->lastInsertId());
 		}
 		else
