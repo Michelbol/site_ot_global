@@ -39,7 +39,7 @@ $config['site']['formerNames'] = 10;
 $config['site']['formerNames_amount'] = 10;
 
 # Account Maker Config
-$config['site']['serverPath'] = "/var/www/otxserver-new/";
+$config['site']['serverPath'] = "/var/www/otxserver-new/"; /*$config['site']['serverPath'] = "D:/Users/miche/Jogos/Tibia OT/Servidor/";*/
 
 
 $config['site']['useServerConfigCache'] = false;
