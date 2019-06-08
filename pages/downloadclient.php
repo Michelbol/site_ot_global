@@ -82,17 +82,15 @@ if(isset($_REQUEST['step']) && $_REQUEST['step'] == "downloadagreement") {
 																	<td><table style="width:100%;text-align:center">
 																			<tr>
 																				<td><a type="application/octet-stream" target="_top"><img style="width:180px;height:180px;border:0px" src="'.$layout_name.'/images/account/download_windows.png"/></a></td>
-																				<td><a type="application/octet-stream" target="_top"><img style="width:180px;height:180px;border:0px" src="'.$layout_name.'/images/account/download_linux.png"/><br/>
-																					</a></td>
 																			</tr>
 																			<tr>
 																			
-																			<td valign="top"><a href="http://www.mediafire.com/file/9232w30it5982b2/Malvera_Global_-_11.46.rar" target="_blank" type="application/octet-stream" target="_top">Client 11.47</a> |
-																				<a href="http://www.mediafire.com/file/2q215ur471uq2tf/MalveraGlobal_-_10.rar" target="_blank" type="application/octet-stream" target="_top">Client 10</a>
+																			<td valign="top">
+																			    <a href="https://www.mediafire.com/file/nxnx4626d4nhpkl/Tibia_11.49.5813.exe/file" target="_blank" type="application/octet-stream" target="_top">Client Próprio</a> |
+																			    <a href="https://www.mediafire.com/file/feq11737ddu7ld1/Tibia_11.49.5813.rar/file" target="_blank" type="application/octet-stream" target="_top">Compactado (.rar)</a> |
 																				<a href="https://tibiamaps.io/downloads" target="_blank" type="application/octet-stream" target="_top"> Minimap</a></br>
 																				</td>
-																				<td valign="top"><a href="https://static.otland.net/ipchanger.exe" target="_blank" type="application/octet-stream" target="_top">Standalone IP Changer</a>
-			
+			    
 																			</tr>
 																			<tr>
 																				<td colspan="2" >[<span class="HelpLink" style="width: 18px; height: 18px;" ><a href="#"><span class="HelperDivIndicator" onMouseOver="ActivateHelperDiv($(this), \'Requirements:\', \'<p><b>Windows:</b><ul><li>Windows XP (Service Pack 2 or higher)/Vista/7</li><li>DirectX version 5.0 or later, or OpenGL</li><li>147 MB free space on your hard disk</li><li>A connection to the internet</li></ul><b>Linux:</b><ul><li>Linux with libc version 6 or later</li><li>X-Window system installed</li><li>Hardware accelerated graphics driver</li><li>146 MB free hard disk space</li><li>A connection to the internet</li><ul></ul>\', \'\');" onMouseOut="$(\'#HelperDivContainer\').hide();" >system requirements</span></a></span>]</td>
@@ -163,3 +161,9 @@ if(isset($_REQUEST['step']) && $_REQUEST['step'] == "downloadagreement") {
 			</td>
 		</tr>';
 }
+
+
+//<td valign="top"><a href="https://static.otland.net/ipchanger.exe" target="_blank" type="application/octet-stream" target="_top">Standalone IP Changer</a>
+//<a href="http://www.mediafire.com/file/2q215ur471uq2tf/MalveraGlobal_-_10.rar" target="_blank" type="application/octet-stream" target="_top">Client 10</a>
+//<td><a type="application/octet-stream" target="_top"><img style="width:180px;height:180px;border:0px" src="'.$layout_name.'/images/account/download_linux.png"/><br/>
+//																					</a></td>
