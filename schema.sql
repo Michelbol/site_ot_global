@@ -613,6 +613,21 @@ CREATE TABLE `player_items` (
 -- Estrutura da tabela `player_kills`
 --
 
+CREATE TABLE `player_reports` (
+  `player_name` varchar(255) NOT NULL,
+  `posx` int(11) NOT NULL,
+  `posy` int(11) NOT NULL,
+  `posz` int(11) NOT NULL,
+  `report_description` varchar 255 NOT NULL,
+  `date` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `player_kills`
+--
+
 CREATE TABLE `player_kills` (
   `player_id` int(11) NOT NULL,
   `time` bigint(20) UNSIGNED NOT NULL DEFAULT '0',

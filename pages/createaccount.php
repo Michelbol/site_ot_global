@@ -172,6 +172,9 @@ try{
                 $reg_account->setCreateDate(time());
                 $reg_account->setPremDays(0);
                 $reg_account->setCoins(0);
+                $reg_account->setCreateIP(0);
+                $reg_account->setVipTime(0);
+                $reg_account->setAuthToken(0);
                 $reg_account->setLastDay(0);
                 $reg_account->setCreateIP(Visitor::getIP());
                 $reg_account->setPremiumPoints(0);
