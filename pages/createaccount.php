@@ -176,7 +176,6 @@ try{
                 $reg_account->setVipTime(0);
                 $reg_account->setAuthToken(0);
                 $reg_account->setLastDay(0);
-                $reg_account->setCreateIP(Visitor::getIP());
                 $reg_account->setPremiumPoints(0);
                 $reg_account->setPageAccess(0);
                 $reg_account->setEmailNewTime(0);
