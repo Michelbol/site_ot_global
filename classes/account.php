@@ -8,8 +8,8 @@ class Account extends ObjectData
 	const LOADTYPE_NAME = 'name';
 	const LOADTYPE_MAIL = 'email';
 	public static $table = 'accounts';
-	public $data = array('name' => null, 'password' => null, 'premdays' => null, 'coins' => null, 'lastday' => null, 'email' => null, 'key' => null, 'create_ip' => null, 'creation' => null, 'premium_points' => null, 'page_access' => null, 'location' => null, 'rlname' => null, 'birth_date' => null, 'gender' => null, 'email_new' => null, 'email_new_time' => null, 'email_code' => null, 'next_email' => null, 'last_post' => null, 'flag' => null, 'vote' => null, 'loyalty_points' => null, 'guild_points' => null);
-	public static $fields = array('id', 'name', 'password', 'premdays', 'coins', 'lastday', 'email', 'key', 'create_ip', 'creation', 'premium_points', 'page_access', 'location', 'rlname','birth_date', 'gender', 'email_new', 'email_new_time', 'email_code', 'next_email', 'last_post', 'flag', 'vote', 'loyalty_points', 'guild_points');
+	public $data = array('name' => null, 'password' => null, 'premdays' => null, 'coins' => null, 'lastday' => null, 'email' => null, 'key' => null, 'create_ip' => null, 'creation' => null, 'premium_points' => null, 'page_access' => null, 'location' => null, 'rlname' => null, 'birth_date' => null, 'gender' => null, 'email_new' => null, 'email_new_time' => null, 'email_code' => null, 'next_email' => null, 'last_post' => null, 'flag' => null, 'vote' => null, 'loyalty_points' => null, 'guild_points' => null, 'vip_time' => null, 'authToken' => null);
+	public static $fields = array('id', 'name', 'password', 'premdays', 'coins', 'lastday', 'email', 'key', 'create_ip', 'creation', 'premium_points', 'page_access', 'location', 'rlname','birth_date', 'gender', 'email_new', 'email_new_time', 'email_code', 'next_email', 'last_post', 'flag', 'vote', 'loyalty_points', 'guild_points','vip_time', 'authToken');
 	public $players;
 	public $playerRanks;
 	public $guildAccess;
@@ -61,6 +61,8 @@ class Account extends ObjectData
 					$values[] = $this->getDatabaseHandler()->quote($this->data[$key]);
 				}
 			$this->getDatabaseHandler()->query('INSERT INTO ' . $this->getDatabaseHandler()->tableName(self::$table) . ' (' . implode(', ', $keys) . ') VALUES (' . implode(', ', $values) . ')');
+            var_dump('INSERT INTO ' . $this->getDatabaseHandler()->tableName(self::$table) . ' (' . implode(', ', $keys) . ') VALUES (' . implode(', ', $values) . ')');
+            die();
 			$this->setID($this->getDatabaseHandler()->lastInsertId());
 		}
 		else
@@ -230,6 +232,10 @@ class Account extends ObjectData
 	public function getGender(){return $this->data['gender'];}
 	public function setFlag($value){$this->data['flag'] = $value;}
 	public function getFlag(){return $this->data['flag'];}
+	public function setVipTime($value){$this->data['vip_time'] = $value;}
+	public function getVipTime(){return $this->data['vip_time'];}
+	public function setAuthToken($value){$this->data['authToken'] = $value;}
+	public function getAuthToken(){return $this->data['authToken'];}
 /*
  * for compability with old scripts
 */
