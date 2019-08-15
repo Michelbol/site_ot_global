@@ -1,5 +1,7 @@
 <?php
 require 'config/config.php';
+var_dump('teste');
+die;
 // comment to show E_NOTICE [undefinied variable etc.], comment if you want make script and see all errors
 error_reporting(E_ALL ^ E_STRICT ^ E_NOTICE);
 // true = show sent queries and SQL queries status/status code/error message
