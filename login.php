@@ -6,6 +6,8 @@
  * Date: 18/09/17
  * Time: 03:01
  */
+var_dump('bateu aqui');
+die;
 require 'config/config.php';
 // comment to show E_NOTICE [undefinied variable etc.], comment if you want make script and see all errors
 error_reporting(E_ALL ^ E_STRICT ^ E_NOTICE);
