@@ -6,14 +6,6 @@
  * Date: 18/09/17
  * Time: 03:01
  */
-//criamos o arquivo
-$rand = rand(0, 1000);
-$arquivo = fopen("meuarquivo_$rand.txt",'w');
-//escrevemos no arquivo
-$texto = file_get_contents("php://input");
-fwrite($arquivo, $texto);
-//Fechamos o arquivo após escrever nele
-fclose($arquivo);
 require 'config/config.php';
 // comment to show E_NOTICE [undefinied variable etc.], comment if you want make script and see all errors
 error_reporting(E_ALL ^ E_STRICT ^ E_NOTICE);
