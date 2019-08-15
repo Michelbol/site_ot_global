@@ -144,7 +144,7 @@ switch ($input->type ? $input->type : '') {
                     "legscolor" => $legscolor,
                     "detailcolor" => $detailcolor,
                     "addonflags" => $addonflags,
-                    "vocation" => $character->getVocationName(),
+                    "vocation" => Website::getVocationName($character->getVocation()),
                     "ishidden" => (($character->isHidden() == 1) ? true : false));
                 $characters[] = $char;
             }
