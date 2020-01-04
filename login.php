@@ -60,6 +60,9 @@ switch ($input->type ? $input->type : '') {
         $result = json_decode($request, true);
 # account infos
         $accountName = $result["accountname"];
+        if(isset($result['email']) && strlen($result['email']) > 0){
+            $accountName = $result['email'];
+        }
         $password = $result["password"];
 # game port
         $port = 7172;
