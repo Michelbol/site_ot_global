@@ -81,7 +81,7 @@ $config['site']['send_register_email'] = true;
 
 # Create Character Options
 $config['site']['newchar_vocations'] = array(0 => 'Rook Sample'); // if you wan't use rook, put (1 => 'Sorcerer Sample', 2 => 'Druid Sample', 3 => 'Paladin Sample', 4 => 'Knight Sample');
-$config['site']['newchar_towns'] = array(6, 51);
+$config['site']['newchar_towns'] = array(6);
 $config['site']['max_players_per_account'] = 10;
 
 
